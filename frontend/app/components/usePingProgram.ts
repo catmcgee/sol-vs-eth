@@ -3,7 +3,7 @@
 import { useMemo } from "react";
 import { AnchorProvider, Program, Idl } from "@coral-xyz/anchor";
 import { useConnection, useAnchorWallet } from "@solana/wallet-adapter-react";
-import idl from "../../public/idls/ping.json"; 
+import idl from "../../public/artifacts/sol/ping.json"; 
 
 export function usePingProgram() {
     const { connection } = useConnection();

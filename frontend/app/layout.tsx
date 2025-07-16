@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "EVM / SCVM",
+  title: "Ethereum / Solana",
 };
 
 export default function RootLayout({

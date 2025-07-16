@@ -9,7 +9,10 @@
     "start": "cd frontend && npm start"
   },
   "workspaces": [
-    "frontend",
-    "examples"
-  ]
-} 
+    "frontend"
+  ],
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.31.1",
+    "wagmi": "^2.15.7"
+  }
+}
