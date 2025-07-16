@@ -1,0 +1,22 @@
+{
+  "order": 1,
+  "summaries": {
+    "Counter.sol": "Ethereum smart contract that has a simple state of a global counter. Stores a uint256 directly in the contract's persistent storage slot 0, accessible via an auto-generated getter.",
+    "lib.rs": "A simple global counter in Solana (built with Anchor) showing state. Counter state lives in a separate Program Derived Address (PDA) account rather than program storage. Requires explicit account initialization with rent payment before use. Solana accounts must pay rent, like a deposit for keeping an account alive."
+  },
+  "mappings": [
+    {
+      "src": "number",
+      "dst": "count_field"
+    },
+    {
+      "src": "set_write",
+      "dst": "init_fn"
+    },
+    {
+      "src": "inc_write",
+      "dst": "increment_write"
+    }
+  ]
+}
+  

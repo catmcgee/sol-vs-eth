@@ -1,0 +1,14 @@
+{
+  "name": "sol-vs-eth",
+  "private": true,
+  "scripts": {
+    "build-examples": "node scripts/build-examples.js",
+    "build-examples:test": "node scripts/build-examples.js --test",
+    "dev": "cd frontend && npm run dev",
+    "build": "npm run build-examples && cd frontend && npm run build",
+    "start": "cd frontend && npm start"
+  },
+  "workspaces": [
+    "frontend"
+  ]
+} 

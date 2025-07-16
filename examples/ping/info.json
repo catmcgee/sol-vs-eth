@@ -1,0 +1,26 @@
+{
+  "order": 0,
+  "summaries": {
+    "Ping.sol": "Deploying a contract creates one account that holds both bytecode & persistent storage. State vars & mappings live there. This example has no persistent state, but the Ethereum contract still has storage available - we just don't use it.",
+    "lib.rs": "Everything on Solana is an account. Deploying a program creates an executable account (code only). Persistent state lives in data accounts you create and pass to instructions in programs. This example has no persistent state, so the instruction takes no custom data accounts."
+  },
+  "mappings": [
+    {
+      "src": "contract_def",
+      "dst": "program_def"
+    },
+    {
+      "src": "ping_eth",
+      "dst": "ping_fn"
+    },
+    {
+      "src": "pong_event_def",
+      "dst": "pong_event"
+    },
+    {
+      "src": "pong_emit",
+      "dst": "pong_event"
+    }
+  ]
+}
+  
