@@ -9,6 +9,7 @@
     "start": "cd frontend && npm start"
   },
   "workspaces": [
-    "frontend"
+    "frontend",
+    "examples"
   ]
 } 

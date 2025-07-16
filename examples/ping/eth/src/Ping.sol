@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.24;
+pragma solidity ^0.8.27;
 
 contract Ping { // @id:contract_def @explain:Solidity contract definition - holds both code and storage in a single on-chain account
     event Pong(address indexed caller); // @id:pong_event_def @explain:Event that will be emitted when ping() is called, storing caller's address in transaction logs

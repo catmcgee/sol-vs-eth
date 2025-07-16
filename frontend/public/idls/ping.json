@@ -1,0 +1,26 @@
+{
+  "address": "5MaYSEuAXu3q2djpsBgyNy1y4KLFqj7c6jvAYBUoyUc3",
+  "metadata": {
+    "name": "ping",
+    "version": "0.1.0",
+    "spec": "0.1.0",
+    "description": "Created with Anchor"
+  },
+  "instructions": [
+    {
+      "name": "ping",
+      "discriminator": [
+        173,
+        0,
+        94,
+        236,
+        73,
+        133,
+        225,
+        153
+      ],
+      "accounts": [],
+      "args": []
+    }
+  ]
+}

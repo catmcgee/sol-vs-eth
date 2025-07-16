@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*; // @id:anchor_prelude @explain:Brings commonly used Anchor items into scope: Context, Accounts, Account, Program, Result alias, msg!, etc. Anchor is the most-used framework for building Solana programs in Rust
 
-declare_id!("Ping111111111111111111111111111111111111111"); // @id:program_id @explain:Declares the expected onchain program ID for this crate (this is a dummy)
+declare_id!("5MaYSEuAXu3q2djpsBgyNy1y4KLFqj7c6jvAYBUoyUc3"); // @id:program_id @explain:Declares the expected onchain program ID for this crate
 
 #[program] // @id:program_def @explain:Anchor macro that marks this as containing program's instruction handlers.
 pub mod ping {                               // @id:program_mod @explain:Rust module that groups instruction functions; the name is local (not the onchain address)
